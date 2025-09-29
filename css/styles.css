@@ -43,3 +43,36 @@
   color: #222;
   margin: 6px 0 10px 0;
 }
+
+/* highlight testo */
+.highlight {
+  background: #fffd7a;
+  padding: 0 2px;
+}
+
+/* tabella con header blu e righe alternate */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.info-table thead th {
+  background: #1e90c9;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-weight: 700;
+}
+.info-table td {
+  padding: 10px;
+  border: 1px solid #cfeefc;
+  vertical-align: top;
+}
+.info-table tbody tr:nth-child(odd) td {
+  background: #8fcce5;
+}
+.info-table tbody tr:nth-child(even) td {
+  background: #ffffff;
+}
