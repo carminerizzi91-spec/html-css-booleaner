@@ -4,13 +4,14 @@
   background-image: url("../img/pattern.png");
   background-repeat: repeat-x;
   background-position: top;
-  background-size: 25%;
+  background-size: 23%;
   background-color: rgb(62, 126, 185);
 }
 
 .logo {
   position: absolute;
   padding-left: 25px;
+  padding-top: 25px;
   top: 10px;
   left: 20px;
   color: white;
@@ -28,6 +29,7 @@
   font-weight: bold;
   line-height: 1.1;
   font-family: "Averia Libre", system-ui;
+  padding-top: 25px;
 }
 /* fine banner */
 
@@ -75,4 +77,52 @@
 }
 .info-table tbody tr:nth-child(even) td {
   background: #ffffff;
+}
+
+/* area "Potrebbero interessarti" */
+.related {
+  margin-top: 18px;
+}
+.related h4 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* riquadro immagine + titolo*/
+.caption-box {
+  width: 160px;
+  margin-bottom: 14px;
+  border: none;
+  position: relative;
+}
+.caption-box img {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+}
+.thumb-title {
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 6px;
+  font-size: 14px;
+  position: absolute;
+
+}
+
+.caption-box2 {
+  width: 160px;
+  margin-bottom: 40px;
+  border: none;
+  position: relative;
+  padding-top: 100px;
+}
+.caption-box2 img {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  position: absolute;
 }
